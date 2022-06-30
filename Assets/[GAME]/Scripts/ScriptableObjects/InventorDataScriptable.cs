@@ -1,11 +1,11 @@
-using _GAME_.Scripts.Structs;
+using _GAME_.Scripts.DataModels;
 using UnityEngine;
 
-namespace _GAME_.Scripts.Scriptables
+namespace _GAME_.Scripts.ScriptableObjects
 {
     [CreateAssetMenu(fileName = "Data", menuName = "InventoryData/InventoryData", order = 1)]
     public class InventorDataScriptable : ScriptableObject
     {
-        public InventorData InventorData;
+        public InventoryData InventorData;
     }
 }
